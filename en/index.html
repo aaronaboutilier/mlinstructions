@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Aid & CPR Training in New Brunswick | MLInstructions</title>
+    <meta name="description" content="Professional First Aid and CPR training in English and French, serving all of New Brunswick. Approved affiliate of the Lifesaving Society — New Brunswick Branch." />
+    <link rel="alternate" hreflang="en" href="https://mlinstructions.ca/en/" />
+    <link rel="alternate" hreflang="fr" href="https://mlinstructions.ca/fr/" />
+    <link rel="alternate" hreflang="x-default" href="https://mlinstructions.ca/" />
+    <link rel="canonical" href="https://mlinstructions.ca/en/" />
+    <meta name="theme-color" content="#00346E" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="First Aid & CPR Training in New Brunswick | MLInstructions" />
+    <meta property="og:description" content="Professional First Aid and CPR training in English and French, serving all of New Brunswick. Approved affiliate of the Lifesaving Society — New Brunswick Branch." />
+    <meta property="og:url" content="https://mlinstructions.ca/en/" />
+    <meta property="og:locale" content="en_CA" />
+    <meta property="og:locale:alternate" content="fr_CA" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%2300346E'/%3E%3Cpath d='M8 4v8M4 8h8' stroke='%23FFC943' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <style>
+      :root {
+        --nav-bg: #CBE4FF;
+        --hero-bg: #F9FCFF;
+        --main-bg: #00346E;
+        --cta-bg: #CBE4FF;
+        --card-bg: #ffffff;
+        --text-dark: #001933;
+        --text-muted: #344862;
+        --text-on-dark: #ffffff;
+        --text-on-dark-muted: #d6e4f5;
+        --pill-bg: #FFC943;
+        --pill-bg-hover: #ffd66b;
+        --pill-text: #001933;
+        --border-soft: #b6d4f2;
+        --shadow-card: 0 14px 28px rgba(0, 25, 51, 0.12);
+      }
+
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+
+      body {
+        font-family: "Avenir Next", "Trebuchet MS", "Segoe UI", sans-serif;
+        color: var(--text-dark);
+        background: var(--hero-bg);
+        line-height: 1.5;
+      }
+
+      a:focus-visible, button:focus-visible {
+        outline: 3px solid #0d64d6;
+        outline-offset: 3px;
+      }
+
+      .skip-link {
+        position: absolute;
+        left: 1rem;
+        top: -4rem;
+        z-index: 1000;
+        background: #ffffff;
+        color: var(--text-dark);
+        border: 2px solid var(--main-bg);
+        border-radius: 10px;
+        padding: 0.6rem 0.8rem;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .skip-link:focus-visible { top: 1rem; }
+
+      .container {
+        width: min(100% - 2rem, 960px);
+        margin: 0 auto;
+      }
+
+      /* --- Header band --- */
+      .site-header {
+        background: var(--nav-bg);
+      }
+      .site-header__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+      }
+      .brand {
+        font-size: 1.05rem;
+        font-weight: 800;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--text-dark);
+      }
+      .lang-switch {
+        display: flex;
+        gap: 0.35rem;
+      }
+      .lang-link {
+        text-decoration: none;
+        color: var(--text-dark);
+        border: 1px solid transparent;
+        border-radius: 999px;
+        padding: 0.35rem 0.7rem;
+        font-size: 0.85rem;
+        font-weight: 700;
+        background: rgba(255, 255, 255, 0.6);
+      }
+      .lang-link[aria-current="page"] {
+        background: var(--text-dark);
+        color: #ffffff;
+      }
+
+      /* --- Hero band --- */
+      .hero {
+        background: var(--hero-bg);
+      }
+      .hero__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0 3.5rem;
+      }
+      .hero h1 {
+        margin: 0 0 1.6rem;
+        color: var(--text-dark);
+        font-size: clamp(1.7rem, 4vw, 2.8rem);
+        line-height: 1.1;
+        text-transform: uppercase;
+        letter-spacing: 0.01em;
+        max-width: 30ch;
+      }
+
+      /* --- Main (services) band --- */
+      .services {
+        background: var(--main-bg);
+        color: var(--text-on-dark);
+      }
+      .services__inner {
+        padding: 3rem 0 3.5rem;
+      }
+      .services__title {
+        margin: 0 0 0.75rem;
+        color: var(--text-on-dark);
+        font-size: clamp(1.4rem, 3vw, 1.9rem);
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .services__intro {
+        margin: 0 0 1.8rem;
+        color: var(--text-on-dark);
+        font-size: 1.05rem;
+        max-width: 70ch;
+      }
+      .card-stack {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+      }
+      .card {
+        background: var(--card-bg);
+        color: var(--text-dark);
+        border-radius: 14px;
+        padding: 1.2rem 1.3rem;
+        box-shadow: var(--shadow-card);
+        height: 100%;
+      }
+      .card h2 {
+        margin: 0 0 0.35rem;
+        font-size: 1.15rem;
+        color: var(--text-dark);
+      }
+      .card p {
+        margin: 0;
+        color: var(--text-muted);
+      }
+
+      /* --- Footer CTA band --- */
+      .cta {
+        background: var(--cta-bg);
+      }
+      .cta__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 3rem 0 2rem;
+      }
+      .cta h2 {
+        margin: 0 0 0.6rem;
+        color: var(--text-dark);
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        font-size: clamp(1.4rem, 3vw, 1.9rem);
+      }
+      .cta p {
+        margin: 0 0 1.4rem;
+        color: var(--text-dark);
+        max-width: 60ch;
+      }
+      .cta .copyright {
+        margin: 3.5rem 0 0;
+        font-size: 0.82rem;
+        color: var(--text-dark);
+        opacity: 0.7;
+      }
+
+      /* --- Pill CTA button --- */
+      .pill-cta {
+        display: inline-block;
+        text-decoration: none;
+        background: var(--pill-bg);
+        color: var(--pill-text);
+        border: 1px solid #e6b432;
+        border-radius: 999px;
+        padding: 0.75rem 1.4rem;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        transition: background 0.18s ease, transform 0.18s ease;
+      }
+      .pill-cta:hover {
+        background: var(--pill-bg-hover);
+        transform: translateY(-1px);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation: none !important;
+          transition: none !important;
+          scroll-behavior: auto !important;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .site-header__inner { justify-content: space-between; }
+        .card-stack { grid-template-columns: 1fr; }
+        .hero__inner, .services__inner, .cta__inner { padding-top: 2.2rem; padding-bottom: 2.4rem; }
+      }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["EducationalOrganization", "LocalBusiness"],
+      "name": "MLInstructions",
+      "url": "https://mlinstructions.ca/",
+      "description": "Professional First Aid and CPR training in English and French, serving all of New Brunswick.",
+      "email": "madeleine@mlinstructions.ca",
+      "foundingDate": "2021",
+      "areaServed": {"@type": "AdministrativeArea", "name": "New Brunswick"},
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Lifesaving Society — New Brunswick Branch"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "First Aid and CPR Training Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "Group CPR Classes"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "Private Instruction"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "Refresher Course"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Course", "name": "First Aid Training"}}
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <div class="brand">MLINSTRUCTIONS</div>
+        <nav class="lang-switch" aria-label="Language selector">
+          <a class="lang-link" href="/en/" hreflang="en" lang="en" aria-current="page">EN</a>
+          <a class="lang-link" href="/fr/" hreflang="fr" lang="fr">FR</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero__inner">
+          <h1 id="hero-title">First Aid &amp; CPR Training Across New Brunswick</h1>
+          <a class="pill-cta" href="mailto:madeleine@mlinstructions.ca?subject=First%20Aid%20%26%20CPR%20Training%20Inquiry">Contact us</a>
+        </div>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <div class="container services__inner">
+          <h2 id="services-title" class="services__title">Services offered</h2>
+          <p class="services__intro">
+            We provide professional First Aid and CPR training in both English and French. Established in 2021, we are a locally owned company proudly serving all of New Brunswick with a personal touch and a commitment to quality instruction.
+          </p>
+          <div class="card-stack">
+            <article class="card">
+              <h2>Group CPR Classes</h2>
+              <p>On-site or hosted sessions for teams, schools, and community organizations.</p>
+            </article>
+            <article class="card">
+              <h2>Private Instruction</h2>
+              <p>One-on-one coaching at a pace tailored to first-time learners.</p>
+            </article>
+            <article class="card">
+              <h2>Refresher Course</h2>
+              <p>Stay current on core CPR techniques and emergency response best practices.</p>
+            </article>
+            <article class="card">
+              <h2>First Aid Training</h2>
+              <p>Hands-on first aid skills for everyday emergencies at home, school, or work.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta-title">
+        <div class="container cta__inner">
+          <h2 id="cta-title">Ready to get started?</h2>
+          <p>
+            MLInstructions is an approved affiliate of the Lifesaving Society &mdash; New Brunswick Branch, a training provider recognized by WorkSafeNB.
+          </p>
+          <a class="pill-cta" href="mailto:madeleine@mlinstructions.ca?subject=First%20Aid%20%26%20CPR%20Training%20Inquiry">Contact us</a>
+          <p class="copyright"><small>&copy; <span id="year">2026</span> MLInstructions. First Aid and CPR training services.</small></p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      var y = document.getElementById('year');
+      if (y) y.textContent = String(new Date().getFullYear());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+We provide professional First Aid and CPR training in both English and French. Established in 2021, we are a locally owned company proudly serving all of New Brunswick with a personal touch and a commitment to quality instruction.
+
+MLInstructions is an approved affiliate member of the Lifesaving Society New Brunswick Branch. The Lifesaving Society New Brunswick Branch is an approved training provider recognized by WorkSafeNB.
